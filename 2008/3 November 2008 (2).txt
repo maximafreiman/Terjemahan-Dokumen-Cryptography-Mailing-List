@@ -1,0 +1,33 @@
+>> Selama node yang jujur menguasai sebagian besar kekuatan CPU di jaringan,
+>> mereka bisa membuat rantai terpanjang dan mengungguli penyerang mana pun.
+>
+>Tapi kenyataannya tidak begitu. Pihak jahat sering mengendalikan zombie farm
+>berisi 100.000 mesin atau lebih. Orang-orang yang saya kenal yang menjalankan
+>daftar hitam untuk zombie pengirim spam mengatakan mereka sering melihat
+>satu juta zombie baru setiap hari.
+>
+>Ini juga alasan kenapa hashcash tidak bisa berjalan di internet saat ini —
+>pihak yang baik punya daya komputasi yang jauh lebih kecil dibanding pihak jahat.
+
+Terima kasih sudah mengangkat poin ini.
+
+Saya sebenarnya bisa menyampaikan pernyataan tadi dengan lebih tepat. Syaratnya adalah pihak yang jujur secara kolektif 
+memiliki lebih banyak kekuatan CPU dibandingkan satu penyerang mana pun.
+
+Akan ada banyak zombie farm kecil yang tidak cukup besar untuk menguasai jaringan, dan mereka tetap bisa menghasilkan uang 
+dengan menambang bitcoin. Farm kecil ini bisa dianggap sebagai “node jujur” (meskipun istilah ini mungkin perlu diperbaiki). 
+Semakin banyak farm kecil yang memilih menambang bitcoin, semakin tinggi pula ambang batas untuk bisa menguasai jaringan. 
+Akibatnya, farm yang lebih besar pun menjadi tidak cukup kuat untuk mengalahkan jaringan, sehingga lebih masuk akal bagi 
+mereka untuk ikut menambang bitcoin juga. Sesuai teori “long tail”, jika digabungkan, farm kecil, menengah, dan besar (yang 
+tidak dominan) seharusnya memiliki total kekuatan yang jauh lebih besar dibanding satu zombie farm terbesar.
+
+Kalaupun ada pihak jahat yang berhasil menguasai jaringan, bukan berarti dia langsung menjadi kaya. Yang bisa dia lakukan 
+hanyalah menarik kembali uang yang sebelumnya dia keluarkan sendiri, mirip seperti membatalkan cek. Untuk benar-benar 
+memanfaatkannya, dia harus membeli sesuatu dari merchant, menunggu barang dikirim, lalu mencoba menguasai jaringan dan mengambil 
+kembali uangnya. Saya rasa keuntungan dari skenario seperti ini tidak akan sebesar jika dia menggunakan kekuatan komputasinya 
+untuk menambang bitcoin. Dengan zombie farm sebesar itu, dia justru bisa menghasilkan lebih banyak bitcoin dibanding gabungan 
+semua pihak lain.
+
+Bahkan, jaringan Bitcoin justru bisa mengurangi spam, dengan “mengalihkan” zombie farm untuk menambang bitcoin.
+
+Satoshi Nakamoto
