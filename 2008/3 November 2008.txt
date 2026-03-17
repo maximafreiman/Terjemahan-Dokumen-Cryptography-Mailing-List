@@ -2,4 +2,47 @@ Dari: Satoshi Nakamoto
 Subject: Bitcoin P2P e-cash paper
 Tanggal: November 3, 2008 at 01:37:43 UTC (atau jam 08:37 WIB)
 
-=================================================================
+==========================================================================================
+
+===========================
+
+===========================
+
+>Satoshi Nakamoto menulis:
+>> Saya sedang mengembangkan sebuah sistem uang elektronik baru yang sepenuhnya
+>> peer-to-peer, tanpa pihak ketiga yang perlu dipercaya.
+>>
+>> Makalahnya tersedia di:
+>> http://www.bitcoin.org/bitcoin.pdf
+>
+>Kita memang sangat membutuhkan sistem seperti itu. Namun, dari pemahaman saya terhadap proposal Anda, 
+>sepertinya sistem ini belum dapat diskalakan hingga ukuran yang dibutuhkan.
+>
+>Agar token proof-of-work yang dapat dipindahtangankan memiliki nilai, token tersebut harus memiliki nilai moneter. 
+>Dan untuk memiliki nilai moneter, token tersebut harus digunakan dalam jaringan yang sangat besar - misalnya 
+>jaringan berbagi file seperti bittorrent.
+>
+>Untuk mendeteksi dan menolak double spending secara tepat waktu, seseorang perlu memiliki sebagian besar riwayat 
+>transaksi dari koin yang digunakan. Jika diimplementasikan secara sederhana, ini berarti setiap peer harus menyimpan 
+>sebagian besar transaksi masa lalu, atau setidaknya transaksi yang terjadi baru-baru ini. Jika ratusan juta orang 
+>melakukan transaksi, kebutuhan bandwidth akan sangat besar — setiap orang harus mengetahui seluruh, atau sebagian 
+>besar, data tersebut.
+>
+
+Jauh sebelum jaringan mencapai ukuran sebesar itu, pengguna sudah dapat dengan aman menggunakan Simplified Payment 
+Verification (bagian 8) untuk memeriksa double spending. Metode ini hanya membutuhkan rantai header blok, sekitar 12KB 
+per hari. Hanya pihak yang ingin membuat koin baru yang perlu menjalankan node jaringan. Pada tahap awal, sebagian besar 
+pengguna mungkin akan menjalankan node, namun seiring pertumbuhan jaringan, peran ini akan semakin diambil alih oleh 
+pihak-pihak khusus dengan server farm dan perangkat keras yang lebih spesialis. Satu server farm cukup memiliki satu node 
+yang terhubung ke jaringan, sementara perangkat lain dalam LAN cukup terhubung ke node tersebut.
+
+Terkait bandwidth, kebutuhannya mungkin tidak sebesar yang dibayangkan. Satu transaksi umumnya berukuran sekitar 400 byte 
+(ECC cukup ringkas). Setiap transaksi perlu disiarkan dua kali, sehingga kira-kira menjadi 1KB per transaksi. Sebagai 
+perbandingan, Visa memproses 37 miliar transaksi pada tahun fiskal 2008, atau sekitar 100 juta transaksi per hari. Jumlah 
+tersebut membutuhkan sekitar 100GB bandwidth — setara dengan 12 DVD atau 2 film berkualitas HD, atau sekitar $18 dengan 
+harga bandwidth saat itu.
+
+Jika jaringan berkembang hingga sebesar itu, kemungkinan akan memakan waktu beberapa tahun. Pada saat itu, mengirim 2 film 
+HD melalui internet mungkin sudah menjadi hal yang biasa.
+
+Satoshi Nakamoto
