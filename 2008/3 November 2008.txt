@@ -4,12 +4,8 @@ Tanggal: November 3, 2008 at 01:37:43 UTC (atau jam 08:37 WIB)
 
 ==========================================================================================
 
-===========================
-
-===========================
-
 >Satoshi Nakamoto menulis:
->> Saya sedang mengembangkan sebuah sistem uang elektronik baru yang sepenuhnya
+>> Aku sedang mengembangkan sebuah sistem uang elektronik baru yang sepenuhnya
 >> peer-to-peer, tanpa pihak ketiga yang perlu dipercaya.
 >>
 >> Makalahnya tersedia di:
