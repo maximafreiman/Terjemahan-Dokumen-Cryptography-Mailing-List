@@ -1,3 +1,10 @@
+Dari: Satoshi Nakamoto
+Subject: Bitcoin P2P e-cash paper
+Tanggal: November 3, 2008 at 16:23:49 UTC (atau jam 23:23 WIB)
+
+==========================================================================================
+
+
 >> Selama node yang jujur menguasai sebagian besar kekuatan CPU di jaringan,
 >> mereka bisa membuat rantai terpanjang dan mengungguli penyerang mana pun.
 >
